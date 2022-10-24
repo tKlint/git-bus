@@ -1,0 +1,22 @@
+git add a.txt
+git commit -m '第一次'
+
+git add b.txt
+git commit -m '第二次'
+
+合并前三个commit
+git rebase -i HEAD~3
+
+git log
+git rebase -i [第一次提交的id] [第三次提交的id]
+
+
+p - 选择
+s - 和前一个合并
+f - 和前一个合并并且不需要合并注释
+
+p 第一次 [id]
+s 第二次 [id]
+
+
+
