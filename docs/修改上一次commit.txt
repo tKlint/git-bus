@@ -1,0 +1,4 @@
+git add . 
+git commit -m '不正常的描述'
+
+git commit --amend
